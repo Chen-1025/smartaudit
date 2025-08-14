@@ -528,16 +528,16 @@ export default [{
         component: () => import('@/view/invest/report/CaseDetail.vue')
       },
       // ====== 新增案件导图路由 ======
-      // {
-      //   path: 'case-mindmap/:caseNumber',
-      //   name: 'caseMindMap',
-      //   meta: {
-      //     hideInMenu: true,
-      //     title: '案件导图',
-      //     notCache: true
-      //   },
-      //   component: () => import('@/view/invest/report/CaseMindMap.vue')
-      // }
+      {
+        path: 'case-mindmap/:caseNumber',
+        name: '案件导图',
+        meta: {
+          hideInMenu: true,
+          title: '案件导图',
+          notCache: true
+        },
+        component: () => import('@/view/invest/report/CaseMindMap.vue')
+      }
     ]
   },
   {

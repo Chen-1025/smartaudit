@@ -335,7 +335,7 @@ export default {
             console.log('跳转到案件导图：', row.caseNumber);
             // 假设您的路由配置中有一个名为 'caseMindMap' 的路由
             this.$router.push({
-                name: 'caseMindMap',
+                name: '案件导图',
                 params: { caseNumber: row.caseNumber }
             });
             // 或者使用 path
